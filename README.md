@@ -48,23 +48,20 @@ Desplegada en [Railway](https://railway.app), lista para ser consumida desde fro
 Crea un archivo .env en la raíz con:
 
 env
-Copiar
-Editar
+
 DATABASE_URL="postgresql://usuario:contraseña@host:puerto/base"
 Railway lo genera automáticamente si conectas el plugin PostgreSQL.
 
 🛠️ Scripts útiles
 bash
-Copiar
-Editar
+
 npm install        # Instala dependencias
 npm start          # Inicia servidor Express
 npx prisma studio  # Interfaz web para ver la DB
 
 🗃️ Estructura del proyecto
 pgsql
-Copiar
-Editar
+
 backend/
 ├── prisma/
 │   └── schema.prisma
