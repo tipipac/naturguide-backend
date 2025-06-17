@@ -35,7 +35,7 @@ Desplegada en [Railway](https://railway.app), lista para ser consumida desde fro
 
 ### 🧾 Ejemplo JSON para POST `/api/places`
 
-```json
+json
 {
   "nombre": "Poza Secreta del Río Verde",
   "descripcion": "Lugar tranquilo con agua cristalina.",
